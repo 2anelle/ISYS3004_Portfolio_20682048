@@ -1,0 +1,73 @@
+body {
+    font-family: helvetica, sans-serif;
+    margin: 0 auto;  /* center the image */
+    padding: 0; 
+    width: 700px;  /* use 60% of the page, allows element to 'scale' proportionally */
+    background-color: #fff;
+    text-align: centre
+}
+
+p { /* pads a paragraphs left and right */
+    margin: 0 10px 10px;
+}
+
+header {
+    background-color: lightgray; 
+}
+
+header h1 {
+    padding: 80px;
+    line-height: 80px;
+}
+
+nav {
+    padding: 10px;
+    text-align: left;
+    background-color: darkgray;
+}
+
+nav a {
+    color: white;
+    text-align: left;
+    padding: 10px 16px; 
+    text-decoration: none;
+}
+
+nav a:hover { 
+    background-color: lightgray;
+    color: black;
+}
+
+#featured {
+    background: lightgray;
+    float: left;  /* start at the left */
+    width: 200px;  /* take up the complete 'row' */
+}
+
+#content {
+    float: right;
+    width: 500px;
+}
+
+#extras {
+    background: lightgray;
+    float: left;
+    width: 200px;
+}
+
+#extras p {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+}
+
+footer {
+    clear: both; /* change back to vertical flow (default) */
+    text-align: center;
+    background-color: darkgray;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
